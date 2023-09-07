@@ -1,5 +1,11 @@
 # Setpoint Energy Savings Calculator
 
+TUT:
+https://www.youtube.com/watch?v=FPFDg5znLTM&list=PLY91jl6VVD7wLP84OUgmjGSUBbem92KHk&index=3&t=3s
+
+GIT:
+https://github.com/CenterForTheBuiltEnvironment/energy-calc
+
 ## install
 ```
 sudo apt install libcurl4-openssl-dev libssl-dev

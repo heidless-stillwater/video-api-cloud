@@ -1,6 +1,16 @@
 {
   "configurations": [
     {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "test",
+      "gen": "GEN_2",
+      "revision": "",
+      "entryPoint": "app",
+      "testInput": "test.py"
+    },
+    {
       "name": "Cloud Run: Run/Debug Locally",
       "type": "cloudcode.cloudrun",
       "request": "launch",
@@ -9,9 +19,9 @@
           "path": "Dockerfile"
         }
       },
-      "image": "video-api-cloud",
+      "image": "energy-calc",
       "service": {
-        "name": "video-api-cloud",
+        "name": "energy-calc",
         "containerPort": 8080,
         "resources": {
           "limits": {
